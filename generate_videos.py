@@ -32,8 +32,13 @@ import json
 import threading
 import base64
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 #nohup uv run python -u generate_videos.py > generate_videos.log 2>&1 &
+#pkill -f generate_videos.py
 # ============================================================
 # CẤU HÌNH
 # ============================================================
