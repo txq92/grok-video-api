@@ -1,265 +1,131 @@
-giường
-tủ
-cửa
-sàn
-trần
-đèn
-quạt
-bếp
-nồi
-chén
-bát
-muỗng
-đũa
-dao
-thìa
-ly
-nước
-sữa
-cơm
-cháo
-cá
-thịt
-trứng
-rau
-cà rốt
-chuối
-táo
-cam
-xoài
-bánh
-kẹo
-kem
-bánh mì
-bánh cuốn
-phở
-trái cây
-rau củ
-quần
-áo
-giày
-dép
-mũ
-tất
-khăn
-túi
-sách
-vở
-bút
-thước
-cặp
-bóng
-xe đạp
-xe máy
-xe hơi
-xe buýt
-tàu
-máy bay
-thuyền
-đường
-cầu
-cửa hàng
-chợ
-trường
-lớp
-thầy
-cô
-bạn
-chơi
-học
-đọc
-viết
-vẽ
-chạy
-nhảy
-đi
-đến
-về
-ăn
-uống
-ngủ
-thức dậy
-rửa tay
-đánh răng
-tắm
-mặc quần áo
-cởi quần áo
-chào
-cảm ơn
-xin lỗi
-vui
-buồn
-mừng
-sợ
-yêu
-thương
-ghét
-tốt
-xấu
-đẹp
-xinh
-to
-nhỏ
-cao
-thấp
-dài
-ngắn
-nóng
-lạnh
-ấm
-mát
-sáng
-tối
-ngày
-đêm
-sáng
-trưa
-chiều
-tối
-mặt trời
-mặt trăng
-sao
-mây
-mưa
-gió
-cây
-hoa
-cỏ
-núi
-sông
-biển
-cát
-đá
-chim
-cá
-chó
-mèo
-gà
-vịt
-bò
-trâu
-ngựa
-heo
-thỏ
-rùa
-cá sấu
-hổ
-sư tử
-voi
-khỉ
-chuột
-côn trùng
-bướm
-ong
-kiến
-màu đỏ
-màu xanh
-màu vàng
-màu trắng
-màu đen
-màu hồng
-màu tím
-màu cam
-màu nâu
-một
-hai
-ba
-bốn
-năm
-sáu
-bảy
-tám
-chín
-mười
-mười một
-hai mươi
-ba mươi
-một trăm
-nhiều
-ít
-toàn bộ
-một nửa
-bạn bè
-hàng xóm
-bác sĩ
-y tá
-cảnh sát
-lính cứu hỏa
-nông dân
-công nhân
-giáo viên
-học sinh
-bóng đá
-bóng rổ
-bóng chuyền
-nhảy dây
-thả diều
-bơi
-leo núi
-đi dạo
-nghe nhạc
-hát
-kể chuyện
-xem phim
-chơi game
-đồ chơi
-búp bê
-xe đồ chơi
-khối gỗ
-ghép hình
-trò chơi
-lễ hội
-sinh nhật
-Tết
-Giáng sinh
-quà
-bóng bay
-pháo hoa
-cười
-khóc
-ôm
-hôn
-cầm
-nắm
-thả
-đẩy
-kéo
-nâng
-hạ
-mở
-đóng
-bật
-tắt
-lên
-xuống
-vào
-ra
-trên
-dưới
-trước
-sau
-bên trái
-bên phải
-giữa
-bên cạnh
-gần
-xa
-nhanh
-chậm
-sạch
-bẩn
-mới
-cũ
-mềm
-cứng
-nặng
-nhẹ
-ngọt
-chua
-cay
-mặn
-đắng
-thơm
-hôi
-ồn ào
-yên tĩnh
+Trường học
+Lớp học
+Giáo viên
+Học sinh
+Cô giáo
+Thầy giáo
+Bạn bè
+Bạn cùng lớp
+Bàn học
+Ghế
+Bảng đen
+Phấn
+Sách giáo khoa
+Vở
+Bút chì
+Bút mực
+Thước kẻ
+Cặp sách
+Bài học
+Bài tập
+Bài tập về nhà
+Bài kiểm tra
+Học bài
+Làm bài
+Đọc sách
+Viết chữ
+Nghe cô giảng
+Nói chuyện
+Hỏi bài
+Trả bài
+Chấm điểm
+Điểm số
+Kết quả
+Tiết học
+Giờ ra chơi
+Sân trường
+Cờ đỏ
+Hiệu trưởng
+Thư viện
+Phòng học
+Buổi sáng
+Buổi chiều
+Học kỳ
+Năm học
+Ngoan ngoãn
+Chăm chỉ
+Tiến bộ
+Khen thưởng
+Kỷ luật
+Học sinh giỏi
+Đường phố
+Xe máy
+Ô tô
+Xe buýt
+Đèn giao thông
+Vạch kẻ đường
+Biển báo
+Ngã tư
+Ngã ba
+Rẽ phải
+Rẽ trái
+Đi thẳng
+Đi bộ
+Người đi bộ
+Tàu điện
+Cầu vượt
+Hầm chui
+Bãi đỗ xe
+Trạm xăng
+Siêu thị
+Khu vui chơi
+Cầu trượt
+Xích đu
+Bập bênh
+Vòng quay
+Nhà bóng
+Trò chơi
+Đu quay
+Thuyền lắc
+Xe điện đụng
+Bóng bay
+Kẹo bông
+Kem
+Nước ngọt
+Vé vào cửa
+Công viên
+Sân chơi
+Leo núi
+Nhảy dây
+Chụp hình
+Siêu thị
+Giỏ hàng
+Xe đẩy
+Kệ hàng
+Thanh toán
+Quầy thu ngân
+Tiền mặt
+Thẻ ngân hàng
+Hóa đơn
+Khuyến mãi
+Giá tiền
+Sữa tươi
+Bánh mì
+Trái cây
+Rau củ
+Thịt tươi
+Đồ đông lạnh
+Nước uống
+Bánh kẹo
+Túi đựng
+Thời tiết
+Nắng
+Mưa
+Gió
+Mây
+Nóng
+Lạnh
+Mát
+Âm u
+Sấm
+Chớp
+Mưa phùn
+Bão
+Nắng nóng
+Trời trong
+Trời tối
+Nhiệt độ
+Độ ẩm
+Sương mù
+Tuyết rơi
+Cầu vồng
