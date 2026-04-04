@@ -58,7 +58,7 @@ POLL_INTERVAL = 7
 MAX_WAIT_TIME = 600
 # Delay giữa các video (giây) - tránh rate limit 429
 # Video API có rate limit rất thấp, cần chờ lâu giữa các request
-DELAY_BETWEEN_VIDEOS = 60
+DELAY_BETWEEN_VIDEOS = 30
 
 # ============================================================
 # TELEGRAM CONFIG

@@ -1,49 +1,265 @@
-Bác sĩ
-Y tá
-Giáo viên
-Công an
-Bộ đội
-Lính cứu hỏa
-Phi công
-Tiếp viên hàng không
-Tài xế
-Lái xe buýt
-Đầu bếp
-Thợ làm bánh
-Nông dân
-Ngư dân
-Công nhân
-Kỹ sư
-Kiến trúc sư
-Thợ xây
-Thợ điện
-Thợ sửa xe
-Thợ cắt tóc
-Thợ may
-Bán hàng
-Thu ngân
-Nhân viên văn phòng
-Bảo vệ
-Lao công
-Người giao hàng
-Bưu tá
-Nhà báo
-Phóng viên
-Diễn viên
-Ca sĩ
-Họa sĩ
-Nhiếp ảnh gia
-Nhà khoa học
-Lập trình viên
-Thiết kế đồ họa
-Huấn luyện viên
-Cầu thủ bóng đá
-Trọng tài
-Hướng dẫn viên du lịch
-Tiếp thị
-Nhân viên ngân hàng
-Luật sư
-Thẩm phán
-Dược sĩ
-Bác sĩ thú y
-Người giữ trẻ
+giường
+tủ
+cửa
+sàn
+trần
+đèn
+quạt
+bếp
+nồi
+chén
+bát
+muỗng
+đũa
+dao
+thìa
+ly
+nước
+sữa
+cơm
+cháo
+cá
+thịt
+trứng
+rau
+cà rốt
+chuối
+táo
+cam
+xoài
+bánh
+kẹo
+kem
+bánh mì
+bánh cuốn
+phở
+trái cây
+rau củ
+quần
+áo
+giày
+dép
+mũ
+tất
+khăn
+túi
+sách
+vở
+bút
+thước
+cặp
+bóng
+xe đạp
+xe máy
+xe hơi
+xe buýt
+tàu
+máy bay
+thuyền
+đường
+cầu
+cửa hàng
+chợ
+trường
+lớp
+thầy
+cô
+bạn
+chơi
+học
+đọc
+viết
+vẽ
+chạy
+nhảy
+đi
+đến
+về
+ăn
+uống
+ngủ
+thức dậy
+rửa tay
+đánh răng
+tắm
+mặc quần áo
+cởi quần áo
+chào
+cảm ơn
+xin lỗi
+vui
+buồn
+mừng
+sợ
+yêu
+thương
+ghét
+tốt
+xấu
+đẹp
+xinh
+to
+nhỏ
+cao
+thấp
+dài
+ngắn
+nóng
+lạnh
+ấm
+mát
+sáng
+tối
+ngày
+đêm
+sáng
+trưa
+chiều
+tối
+mặt trời
+mặt trăng
+sao
+mây
+mưa
+gió
+cây
+hoa
+cỏ
+núi
+sông
+biển
+cát
+đá
+chim
+cá
+chó
+mèo
+gà
+vịt
+bò
+trâu
+ngựa
+heo
+thỏ
+rùa
+cá sấu
+hổ
+sư tử
+voi
+khỉ
+chuột
+côn trùng
+bướm
+ong
+kiến
+màu đỏ
+màu xanh
+màu vàng
+màu trắng
+màu đen
+màu hồng
+màu tím
+màu cam
+màu nâu
+một
+hai
+ba
+bốn
+năm
+sáu
+bảy
+tám
+chín
+mười
+mười một
+hai mươi
+ba mươi
+một trăm
+nhiều
+ít
+toàn bộ
+một nửa
+bạn bè
+hàng xóm
+bác sĩ
+y tá
+cảnh sát
+lính cứu hỏa
+nông dân
+công nhân
+giáo viên
+học sinh
+bóng đá
+bóng rổ
+bóng chuyền
+nhảy dây
+thả diều
+bơi
+leo núi
+đi dạo
+nghe nhạc
+hát
+kể chuyện
+xem phim
+chơi game
+đồ chơi
+búp bê
+xe đồ chơi
+khối gỗ
+ghép hình
+trò chơi
+lễ hội
+sinh nhật
+Tết
+Giáng sinh
+quà
+bóng bay
+pháo hoa
+cười
+khóc
+ôm
+hôn
+cầm
+nắm
+thả
+đẩy
+kéo
+nâng
+hạ
+mở
+đóng
+bật
+tắt
+lên
+xuống
+vào
+ra
+trên
+dưới
+trước
+sau
+bên trái
+bên phải
+giữa
+bên cạnh
+gần
+xa
+nhanh
+chậm
+sạch
+bẩn
+mới
+cũ
+mềm
+cứng
+nặng
+nhẹ
+ngọt
+chua
+cay
+mặn
+đắng
+thơm
+hôi
+ồn ào
+yên tĩnh
