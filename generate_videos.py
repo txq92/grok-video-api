@@ -56,6 +56,9 @@ IMAGES_DIR = "IMAGES"    # Thư mục chứa ảnh để random
 POLL_INTERVAL = 7
 # Timeout tối đa cho mỗi video (giây) - 10 phút
 MAX_WAIT_TIME = 600
+# Delay giữa các video (giây) - tránh rate limit 429
+# Video API có rate limit rất thấp, cần chờ lâu giữa các request
+DELAY_BETWEEN_VIDEOS = 60
 
 # ============================================================
 # TELEGRAM CONFIG
@@ -218,12 +221,33 @@ class VideoGenerator:
             mime_type = mime_map.get(ext, "image/png")
             payload["image"] = {"url": f"data:{mime_type};base64,{img_data}"}
 
-        response = requests.post(
-            f"{BASE_URL}/videos/generations",
-            headers=headers, json=payload, timeout=60
-        )
-        response.raise_for_status()
-        return response.json().get("request_id")
+        # Retry khi bị rate limit (429)
+        max_retries = 10
+        for retry in range(max_retries + 1):
+            if self._stop_event.is_set():
+                return None
+            response = requests.post(
+                f"{BASE_URL}/videos/generations",
+                headers=headers, json=payload, timeout=60
+            )
+            if response.status_code == 429:
+                # Đọc Retry-After header nếu có
+                wait = 60 * (2 ** min(retry, 4))  # 60s, 120s, 240s, 480s, 960s (max ~16 phút)
+                wait = min(wait, 960)
+                if "Retry-After" in response.headers:
+                    try:
+                        wait = int(response.headers["Retry-After"])
+                    except ValueError:
+                        pass
+                self._log(f"  ⚠️ Rate limit 429! Chờ {wait}s... (lần {retry+1}/{max_retries})")
+                for _ in range(wait):
+                    if self._stop_event.is_set():
+                        return None
+                    time.sleep(1)
+                continue
+            response.raise_for_status()
+            return response.json().get("request_id")
+        raise Exception(f"Rate limit 429 sau {max_retries} lần thử")
 
     def poll_video(self, request_id):
         headers = {"Authorization": f"Bearer {API_KEY}"}
@@ -372,6 +396,14 @@ class VideoGenerator:
                         self.on_video_fail(word, reason)
                     except:
                         pass
+
+            # Delay giữa các video để tránh rate limit
+            if i < self.total_words and not self._stop_event.is_set():
+                self._log(f"  ⏳ Chờ {DELAY_BETWEEN_VIDEOS}s trước video tiếp theo...")
+                for _ in range(DELAY_BETWEEN_VIDEOS):
+                    if self._stop_event.is_set():
+                        break
+                    time.sleep(1)
 
         # Hoàn thành
         elapsed = time.time() - self.start_time
